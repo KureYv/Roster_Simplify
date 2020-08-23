@@ -14,8 +14,8 @@ def main():
     if (decision == "add"):
         output = open(directory,'a')
         for i in range(1,6):
-            print("Player"+str(i))
-            output.write(input() + ' ')
+            print("Player "+str(i))
+            output.write(str(i)+"." + input() + ' ')
         output.write("\n")
     elif (decision == "delete"):
         delete = open(directory,'w')
