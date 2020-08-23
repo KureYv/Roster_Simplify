@@ -1,4 +1,4 @@
-# Roster_Simplifier
+# Roster Simplify
 
 Basketball roster history simplifier
 
