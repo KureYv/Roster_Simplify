@@ -6,17 +6,24 @@ directory = input()
 if (not os.path.isfile(directory)):
     print("There is no such file")
     exit()
-output = open(directory,'a')
 print("File found")
 
 def main():
-    for i in range(1,6):
-        print("Player"+str(i))
-        output.write(input() + ' ')
+    print("Add to roster history or delete history [add, delete]")
+    decision = input()
+    if (decision == "add"):
+        output = open(directory,'a')
+        for i in range(1,6):
+            print("Player"+str(i))
+            output.write(input() + ' ')
+        output.write("\n")
+    elif (decision == "delete"):
+        delete = open(directory,'w')
+        exit()
 
 if __name__ == "__main__":
     main()
-    output.write("\n")
+    exit()
 
 
 
