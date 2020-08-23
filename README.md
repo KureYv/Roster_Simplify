@@ -1,6 +1,6 @@
 # Roster Simplify
 
-Basketball roster history simplifier
+Basketball roster history 
 
 Simple python script
 
